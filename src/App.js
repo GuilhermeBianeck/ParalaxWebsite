@@ -2,10 +2,10 @@ import img1 from './assets/img/7.png'
 import img2 from './assets/img/6.png'
 import img3 from './assets/img/5.png'
 import img5 from './assets/img/3.png'
+import logo from './assets/img/logo.png'
 import moon from './assets/img/1.png'
 import { useEffect } from 'react'
 import React from 'react'
-
 
 function App() {
 
@@ -29,8 +29,7 @@ function App() {
               <div className="img-layer bottomlayer scrolling-2 " style={{backgroundImage: `url(${img2})`}}></div> 
               <div className="img-layer bottomlayer scrolling-3 " style={{backgroundImage: `url(${img3})`}}></div> 
               <div className='layer-head'>
-                <div className='title'>Lumos</div>
-                <div className='subtitle'>Maxima</div>
+                <img src={logo} alt="Logo" className='logo' />
               </div>
               <div className="img-layer toplayer scrolling-4 " style={{backgroundImage: `url(${img5})`}}></div> 
               <div className="img-layer scrolling-5" style={{backgroundImage: `url(${moon})`}}></div> 
